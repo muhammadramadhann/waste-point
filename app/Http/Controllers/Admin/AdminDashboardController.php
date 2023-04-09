@@ -42,7 +42,7 @@ class AdminDashboardController extends Controller
     {
         $number = 1;
         $users = User::where('is_admin', false)->get();
-        return view('pages.admin.data.users.index', [
+        return view('pages.admin.main.user', [
             'users' => $users,
             'number' => $number,
         ]);
