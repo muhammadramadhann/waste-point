@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: all 0.2s;
+    border-bottom: 1px solid #dedede;
+}
+
+.line {
+    border-radius: 8px;
+}
+
+.line:hover a.nav-link {
+    color: #32854d !important;
+    transition: all 0.2s ease;
+}
+
+.line.active a.nav-link {
+    color: #32854d !important;
+}
+
+.nav-scroll {
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-green .btn-login,
+.btn-register {
+    transition: ease-in-out 0.3s;
+}
+
+.btn-login,
+.btn-green,
+.bg-green {
+    background-color: #32854d;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #f4c158;
+    color: white;
+}
+
+.btn-green-secondary {
+    background-color: #79ba2a;
+    color: white;
+}
+
+.btn-register {
+    border: 1px solid #32854d;
+    color: #32854d;
+}
+
+.btn-gray,
+.bg-gray {
+    background-color: #f2f2f2;
+}
+
+.btn-login,
+.btn-register {
+    padding: 8px 24px;
+}
+
+.btn-login:hover,
+.btn-green:hover {
+    background-color: #216838;
+    color: white;
+}
+
+.btn-green-secondary:hover {
+    background-color: #79ba2a;
+    color: white;
+}
+
+.btn-register:hover {
+    background-color: #32854d;
+    color: white;
+}
+
+.btn-yellow:hover {
+    background-color: #d9a337;
+    color: white;
+}
+
+.text-green,
+.btn-link,
+.btn-link:hover {
+    color: #32854d;
+}
+
+.text-green-secondary {
+    color: #79ba2a;
+}
+
+.text-yellow {
+    color: #f4c158;
+}
+
+.btn-green-secondary:hover {
+    background-color: #6eaa25;
+    color: white;
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+
+a.dropdown-toggle::after {
+    border: none !important;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f107" !important;
+    vertical-align: 0;
+}
+
+a.dropdown-item:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#service-view hr,
+#blog-view hr {
+    width: 14%;
+    height: 4px;
+    border-radius: 12px;
+    border: 0;
+    background: #32854d;
+    opacity: 1;
+}
+
+footer hr {
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#service-view .card,
+#waste-type img {
+    transition: 0.2s;
+}
+
+#service-view .card:hover,
+#waste-type img:hover {
+    cursor: pointer;
+    transform: translateY(-2.5%);
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bg-auth {
+    background: rgba(50, 133, 77, 0.2);
+}
+
+.auth {
+    width: 600px;
+    border: 1px solid #dedede;
+}
+
+.auth a.text-green:hover {
+    color: #32854d;
+}
+
+i#togglePassword {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-top: -27.5px;
+    margin-right: 12px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    border: 2px solid #79ba2a;
+    padding: 2px;
+}
+
+.jumbotron .card,
+.waste-admin,
+.nav-link:hover,
+.nav-link {
+    color: #212529;
+}
+
+.admin-title {
+    font-weight: bold;
+    color: black;
+}
+
+.table thead {
+    color: black !important;
+}
+
+.sidebar li.active a {
+    color: #32854d !important;
+}
+
+.sidebar li.active .nav-link i.bi,
+.sidebar li.active .nav-link i.fas {
+    color: #32854d;
+}
+
+#managed.card {
+    width: 600px;
+    color: #212529;
+}
+
+.article-image img {
+    width: 700px;
+}
+
+.article-body {
+    font-size: 17px;
+}
+
+#managed-article.card {
+    width: 800px;
+    color: #212529;
+}
+
+#detail,
+#detail input,
+#detail textarea,
+#detail select,
+#detail label,
+#managed input,
+#managed textarea,
+#managed select,
+#managed-article input,
+#managed-article textarea,
+#managed-article select {
+    color: #212529;
+}
+
+.modal-delete {
+    color: black;
+}
+
+.page-link {
+    color: #32854d;
+}
+
+.page-item.active .page-link {
+    background-color: #32854d;
+    border: #32854d;
+}
+
+.detail-sampah,
+.coins {
+    width: 450px;
+}
+
+.history-illustration {
+    width: 280px;
+}
+
+.detail-sembako,
+.success {
+    width: 300px;
+}
+
+.form-select:active,
+.form-select:focus,
+.form-control:active,
+.form-control:focus {
+    box-shadow: none;
+    border-color: #6eaa25;
+}
+
+.hr-dashboard {
+    background-color: #cbcfd3;
+    border: 1px solid #cbcfd3;
+}
+
+.nav-tabs .nav-link.active {
+    color: #32854d;
+}
+
+.avatar-update,
+.partner {
+    width: 120px;
+}
+
+.admin-sampah {
+    width: 150px;
+}
+
+a.scroll-to-top:hover {
+    background-color: #216838;
+}
+
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating label:last-child {
+    position: static;
+}
+
+.rating label:nth-child(1) {
+    z-index: 5;
+}
+
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating label .icon {
+    float: left;
+    color: transparent;
+}
+
+.rating label:last-child .icon {
+    color: #dedede;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+    color: #fdcc0d;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #09f;
+}
+
+@media screen and (max-width: 992px) {
+    #main-view {
+        text-align: center;
+    }
+
+    #main-view a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #service-view hr,
+    #blog-view hr {
+        width: 24%;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .auth,
+    #blog-view .card,
+    #managed.card,
+    .button-full,
+    .detail-sampah,
+    .detail-produk,
+    .admin-sampah,
+    .coins,
+    .exchange,
+    .success,
+    .avatar-update,
+    .article-image img {
+        width: 100%;
+    }
+}
